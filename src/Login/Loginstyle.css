@@ -1,0 +1,166 @@
+body{
+  background-color: #5865f2;
+  background-image: url(../assets/login_bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 100px;
+}
+
+.login {
+  background-color: #2f3136;
+  border: 1px;
+  transition: 0.3s;
+  border-radius: 3px;
+  max-width: 640px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding-left: 15px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 30px;
+  align-items: center;
+}
+
+#email, #password{
+  background-color: #36393f;
+  border: 1px solid rgb(44, 44, 44);
+  padding: 7px;
+  width: 100%;
+  border: 1px solid #23272a;
+}
+
+.login-btn{
+  font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  background-color: #5865f2;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.register{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+
+.p1{
+  font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  color: #b9bbbe
+}
+
+.p2{
+  font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  color: #72767d;
+}
+
+.p3{
+  font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  color: #00b0f4;
+}
+
+h2,h3{
+  font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  color: #ffff;
+}
+
+@media (max-width: 1024px) {
+  body{
+    background-color: #2f3136;
+    padding-top: 100px;
+    background-image: none;
+  }
+  
+  .login {
+    background-color: #2f3136;
+    border: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+    max-width: 570px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding-left: 15px;
+  }
+  
+  .right-side {
+    display: none;
+    
+  }
+  
+  #email, #password{
+    background-color: #36393f;
+    border: 1px solid rgb(44, 44, 44);
+    padding: 7px;
+    width: 100%;
+    border: 1px solid #23272a;
+  }
+  
+  .login-btn{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    background-color: #5865f2;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: 100%;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  .p1{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #b9bbbe
+  }
+  
+  .p2{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #72767d;
+  }
+
+  .register{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  
+  .p3{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #00b0f4;
+  }
+  
+  h2,h3{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #ffff;
+  }
+}

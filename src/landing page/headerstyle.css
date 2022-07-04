@@ -1,0 +1,280 @@
+ html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cover-page {
+    background-image: url("../assets/center_bg_landing_header.svg");
+    background-color: #404eed;
+    padding: 0;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .discord{
+    color: #ffffff;
+    float: left;
+    display: flex;
+    flex-direction:row;
+    gap: 5px;
+    margin-right: 100px;
+  }
+
+  .cover-content {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login{
+    float: right;
+    margin-left: 100px;
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    color: #000000;
+    padding: 10px;
+    width: 100px;
+    text-decoration: none;
+  }
+
+  .buttons {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .buttons {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  h1 {
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #ffff;
+  }
+
+  .p1 {
+    padding-bottom: 20px;
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #ffffff;
+  }
+
+  .mac {
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    color: #23272a;
+    padding: 20px 20px;
+    width: 450px;
+    text-decoration: none;
+  }
+
+  .browser {
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    background-color: #23272a;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 20px 20px;
+    width: 450px;
+    text-decoration: none;
+  }
+
+  .left-right-bg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 369px;
+  }
+
+  #left-bgimage {
+    width: 100%;
+    max-width: 520px;
+  }
+
+  #right-bgimage {
+    width: 100%;
+    max-width: 458px;
+  }
+
+  .invite, .fandom{
+    background-color: #ffffff;
+    padding: 80px;
+  }
+
+  .invite-img, .fandom-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
+  }
+
+  #inviteonlyimage, #hangoutimage, #fandomimage{
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .invite-heading, .hang-out-heading, .fandom-heading, .chilling-heading{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #000000;
+    font-size: 45px;
+    padding-bottom: 0;
+  }
+
+  .p2{
+    padding-top: 0;
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    line-height: 1.8;
+  }
+
+  .hanging-out, .chilling{
+    background-color: #f6f6f6;
+    padding: 100px 140px 100px 140px;
+  }
+
+  .hang-out{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
+  }
+
+  .journey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #starsimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .journey-heading{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #000000;
+  }
+
+  .journey-btn{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    background-color: #5865f2;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 20px 20px;
+    width: 250px;
+    text-decoration: none;
+  }
+
+  .discord-footer{
+    background-color: #23272a;
+  }
+
+  .footer-box{
+    padding: 80px 80px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
+  }
+
+  .footer-heading{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #5865f2;
+  }
+
+  .usa{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #ffffff;
+  }
+
+  .p2{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+  }
+
+  .p3{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #ffffff;
+  }
+
+  .p4{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #404eed;
+  }
+
+  .discord-end{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1000px;
+
+  }
+
+  .sign-up{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    background-color: #5865f2;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 0;
+    width: 100px;
+    text-decoration: none;
+  }
+
+  .discord-logo-end{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+
+
+
+
+
+
+
+

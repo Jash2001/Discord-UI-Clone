@@ -1,0 +1,125 @@
+body {
+  background-color: #5865f2;
+  background-image: url(../assets/login_bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 100px;
+}
+
+.sign-up-form {
+  background-color: #2f3136;
+  border: 1px;
+  transition: 0.3s;
+  border-radius: 3px;
+  max-width: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-details{
+    margin: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+h3 {
+  font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  color: #ffff;
+}
+
+#email, #password, #username{
+    background-color: #36393f;
+    border: 1px solid rgb(44, 44, 44);
+    padding: 7px;
+    width: 100%;
+    border: 1px solid #23272a;
+  }
+
+.continue-btn{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    background-color: #5865f2;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.p1{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #b9bbbe
+}
+
+.p2{
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #00b0f4
+}
+
+@media(max-width: 1024px) {
+  body {
+    background-color: #2f3136;
+    background-image: none;
+    padding-top: 100px;
+  }
+  
+  .sign-up-form {
+    background-color: #2f3136;
+    border: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+    max-width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sign-up-details{
+      margin: 10px;
+      padding-top: 5px;
+      padding-left: 10px;
+      padding-right: 20px;
+  }
+  
+  h3 {
+    font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: #ffff;
+  }
+  
+  #email, #password, #username{
+      background-color: #36393f;
+      border: 1px solid rgb(44, 44, 44);
+      padding: 7px;
+      width: 100%;
+      border: 1px solid #23272a;
+    }
+  
+  .continue-btn{
+      font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-style: normal;
+      background-color: #5865f2;
+      border: none;
+      color: #ffffff;
+      padding: 10px 20px;
+      width: 100%;
+      text-decoration: none;
+  }
+  
+  .p1{
+      font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-style: normal;
+      color: #b9bbbe
+  }
+  
+  .p2{
+      font-family: Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-style: normal;
+      color: #00b0f4
+  }
+}
